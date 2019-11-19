@@ -99,12 +99,11 @@ public class ColorsActivity extends AppCompatActivity {
 
                 mMediaPlayer.setOnCompletionListener(mCompletionListener);
 
-                    }
-
-
-                });
             }
 
+
+        });
+    }
 
 
     @Override
@@ -118,7 +117,7 @@ public class ColorsActivity extends AppCompatActivity {
     /**
      * Clean up the media player by releasing its resources.
      */
-    private void releaseMediaPlayer () {
+    private void releaseMediaPlayer() {
         // If the media player is not null, then it may be currently playing a sound.
         if (mMediaPlayer != null) {
             // Regardless of the current state of the media player, release its resources
